@@ -1,0 +1,40 @@
+.about-alignment{
+  background-color: rgb(253, 69, 69);
+  height: 607px;
+}
+
+.img-logo{
+  margin: 160px 0px 0px 0px;
+  border-radius: 20%;
+}
+
+.img-slider{
+  width: 40%;
+  margin: 20px 0px;
+  border-radius: 10%;
+}
+
+.img-slider1{
+  width: 40%;
+  margin: 10px 0px;
+  border-radius: 10%;
+}
+
+@media (min-width: 300px) and (max-width: 800px) {
+  .about-alignment{
+    height: 900px;
+    overflow-y: hidden;
+  }
+  
+  .img-slider{
+    width: 100%;
+    margin: 60px 0;
+    border-radius: 10%;
+  }
+  
+  .img-slider1{
+    width: 100%;
+    margin: 60px 0px;
+    border-radius: 10%;
+  }
+}
